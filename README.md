@@ -1,6 +1,6 @@
 # Shift Cipher with Drupal
 
-##### A Drupal website for custom module that displays the result of the phrase user inputted according to the ```shift value```, ```shift direction``` and ```phrase``` entered by user. (10/23/15)
+##### A Drupal website with custom module that displays the result of a phrase user inputted according to the ```shift value```, ```shift direction``` and ```phrase``` entered by user. (10/23/15)
 
 #### By Logan Wu
 
