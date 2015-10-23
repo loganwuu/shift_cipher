@@ -11,6 +11,8 @@
 * The shift value must be a positive integer
 * The shift direction must be either "left" or "right".
 * The only special characters that should be allowed in your input phrase are spaces and punctuation.
+* Any spaces or punctuation in the input phrase should be ignored and reproduced in the final result without being shifted.
+* The final result should be in all lowercase.
 
 Login Info
 ----------
