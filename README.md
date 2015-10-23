@@ -28,7 +28,7 @@ password: ```root```
 ## Setup
 * Clone the project using the link provided on Github in the Terminal by using ```git clone```.
 * Download and run MAMP to connect the server to the project folder on the Mac.
-* Import the ```shift_cipher.sql.zip``` database on phpMyAdmin.
+* Import the ```shift_cipher.sql.zip``` database in phpMyAdmin.
 * open browser to ```localhost:8888``` to view the site.
 * Login using the login info provided above.
 
