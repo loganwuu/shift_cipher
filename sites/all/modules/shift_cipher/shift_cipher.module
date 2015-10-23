@@ -61,10 +61,16 @@ function element_validate_direction($element) {
 
 // function element_validate_phrase($element) {
 //   $numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
-//   foreach (($element['#value']) as $character) {
-//     if (in_array($character, $numbers) {
+//
+//   $array_string = str_split($element['#value']);
+//
+//   $array_length = count($array_string);
+//
+//   for ($i = 0; $i < $array_length; $i++) {
+//     if (in_array($array_string[i], $numbers) {
 //       form_error($element, t('The phrase must only contain spaces and/or puntuations as special characters.'));
 //     }
+//     break 1;
 //   }
 // }
 
