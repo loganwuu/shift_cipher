@@ -11,10 +11,10 @@ function shift_cipher_menu() {
   );
 
   $items['shift_cipher_success_page'] = array(
-  'title' => "Result!",
-  'page callback' => 'shift_cipher_success',
-  'access callback' => TRUE,
-  'type' => MENU_CALLBACK,
+    'title' => "Result!",
+    'page callback' => 'shift_cipher_success',
+    'access callback' => TRUE,
+    'type' => MENU_CALLBACK,
   );
 
   return $items;
@@ -24,7 +24,7 @@ function shift_cipher_form() {
   $form['shift_value'] = array(
     '#title' => 'Shift Value',
     '#type' => 'textfield',
-    '#description' => t('the number of places to shift each letter over'),
+    '#description' => t('enter the number of places to shift each letter over'),
     '#element_validate' => array('element_validate_integer_positive'),
     '#required' => TRUE,
   );
@@ -32,7 +32,7 @@ function shift_cipher_form() {
   $form['shift_direction'] = array(
     '#title' => 'Shift Direction',
     '#type' => 'textfield',
-    '#description' => t("either 'left' or 'right' of the alphabets"),
+    '#description' => t("enter either 'left' or 'right' for the direction you want to shift"),
     '#element_validate' => array('element_validate_direction'),
     '#required' => TRUE,
   );
@@ -40,7 +40,7 @@ function shift_cipher_form() {
   $form['shift_phrase'] = array(
     '#title' => 'Phrase to be shifted',
     '#type' => 'textfield',
-    '#description' => t('the phrase you want to shift'),
+    '#description' => t('enter the phrase you want to shift from'),
     '#element_validate' => array('element_validate_phrase'),
     '#required' => TRUE,
   );
@@ -104,6 +104,7 @@ function shift_cipher_form_submit($form, &$form_state) {
       } else {
         array_push($output_array, $letter);
       }
+    }
   }
 
   $outout_string = implode("", $output_array);
