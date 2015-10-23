@@ -1,4 +1,4 @@
-# Writing Custom Modules
+# Shift Cipher with Drupal
 
 ##### A Drupal website for custom module that displays the result of the phrase user inputted according to the ```shift value```, ```shift direction``` and ```phrase``` entered by user. (10/23/15)
 
@@ -8,7 +8,7 @@
 * The shift value is the number of places to shift each letter over.
 * If the shift direction is "right" then you will add the shift value. For example: "a" with a shift value of 1 and a direction of right would become "b". A shift direction of "left" with a shift value of 1 would turn "b" into "a".
 * If the shift amount takes you over the bounds of the alphabet then cycle back to the beginning. For example: a shift value of 3 with the direction of right would turn "z" into "c".
-* The shift value must be a positive integer
+* The shift value must be a positive integer.
 * The shift direction must be either "left" or "right".
 * The only special characters that should be allowed in the input phrase are spaces and punctuation.
 * Any spaces or punctuation in the input phrase should be ignored and reproduced in the final result without being shifted.
