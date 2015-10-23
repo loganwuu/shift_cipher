@@ -1,5 +1,5 @@
 name = Shift Cipher
-description = Displays the result that tells the user what type of triangle they inputted.
+description = Displays the result of the phrase user inputted according to the shift value, shift direction and phrase entered by user.
 package = Epicodus Examples
 core = 7.x
-files[] = triangle.module
+files[] = shift_cipher.module

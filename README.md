@@ -1,6 +1,6 @@
 # Writing Custom Modules
 
-##### A Drupal website for custom module development code review at Epicodus. (10/23/15)
+##### A Drupal website for custom module that displays the result of the phrase user inputted according to the ```shift value```, ```shift direction``` and ```phrase``` entered by user. (10/23/15)
 
 #### By Logan Wu
 
@@ -10,7 +10,7 @@
 * If the shift amount takes you over the bounds of the alphabet then cycle back to the beginning. For example: a shift value of 3 with the direction of right would turn "z" into "c".
 * The shift value must be a positive integer
 * The shift direction must be either "left" or "right".
-* The only special characters that should be allowed in your input phrase are spaces and punctuation.
+* The only special characters that should be allowed in the input phrase are spaces and punctuation.
 * Any spaces or punctuation in the input phrase should be ignored and reproduced in the final result without being shifted.
 * The final result should be in all lowercase.
 
